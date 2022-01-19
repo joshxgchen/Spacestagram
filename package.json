@@ -1,0 +1,22 @@
+{
+  "name": "shopify-2022-challenge",
+  "version": "1.0.0",
+  "description": "My challenge project for the shopify remote front end developer position (2022).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/polaris": "^7.5.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.2.1",
+    "web-vitals": "^2.1.3"
+  }
+}
