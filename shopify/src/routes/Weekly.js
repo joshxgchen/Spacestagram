@@ -9,10 +9,6 @@ const CardListItem = (props) => {
     []
   );
   const contentStatus = thumbsUp ? " Dislike 💔" : " Like 💖";
-  const choiceListItems = [
-    {label: 'I accept the Terms of Service', value: 'false'},
-    {label: 'I consent to receiving emails', value: 'false2'},
-  ];
 
   return (
     <MediaCard

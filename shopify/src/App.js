@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import enTranslations from "@shopify/polaris/locales/en.json";
-import { AppProvider, Frame, TextContainer,Heading, Layout, Card} from "@shopify/polaris";
+import { AppProvider, Frame, TextContainer,Heading /*, Layout, Card*/} from "@shopify/polaris";
 import "@shopify/polaris/build/esm/styles.css";
 import Cards from "./routes/Cards";
 import Weekly from "./routes/Weekly";
 import Loader from "./routes/Loader";
 import "./App.css"
-import InfiniteScroll from 'react-infinite-scroll-component';
+//import InfiniteScroll from 'react-infinite-scroll-component';
 
 let today = new Date();
 today = today.toISOString().split('T')[0];
@@ -81,7 +81,7 @@ export default function Photo() {
 				alt='NASA footage of the day'
 			/>
 			<h2 className='imageTitle'>{imageTitle }</h2>
-      <h3 className = 'imageTitle2'>{"Created by: " + authorCredit+" | " + date + " |"+" Photo of The Day"}</h3>
+            <h3 className = 'imageTitle2'>`Created by: ${authorCredit} | ${date} | Photo of The Day`</h3>
 			<div className='featuredImage'>
 				<h6 className='imageInfo'>{imageInfo}</h6>
 			</div>
