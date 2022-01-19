@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { Page, MediaCard } from "@shopify/polaris";
-import "./App.css"
+
 const CardListItem = (props) => {
   // Change states for Like button.
   const [thumbsUp, setthumbsUp] = useState(false);
