@@ -21,8 +21,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
+  -webkit-text-size-adjust: auto;
 }
 
 .App-link {
@@ -47,6 +48,7 @@
   border-radius: 12px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-text-size-adjust: auto;
 }
 
 .hamburger-menu {
@@ -69,7 +71,7 @@ h1 { /* changes shit about the font underneath*/
 h2 { /* changes shit about the font underneath*/
   padding-top: 15px;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2em;
   text-align: center;
   padding-bottom: 5px;
   font-family: Neue Helvetica;
@@ -80,14 +82,16 @@ h3 { /* changes shit about the font underneath*/
   font-size: 1vw;
   text-align: center;
   padding-bottom: 15px;
+  -webkit-text-size-adjust: auto;
   font-family: Neue Helvetica;
 }
 h4 { /* changes shit about the font underneath*/
   padding-top: 15px;
-  font-size: 1.2vw;
+  font-size: 1.2em;
   text-align: center;
   padding-bottom: 15px;
   font-family: Neue Helvetica;
+  -webkit-text-size-adjust: auto;
 }
 
 
@@ -109,7 +113,7 @@ h6{
   padding-left: 70px;
   padding-right: 70px;
   border-radius: 12px;
-  font-size: 0.9vw;
+  font-size: 1em;
 }
 
 
