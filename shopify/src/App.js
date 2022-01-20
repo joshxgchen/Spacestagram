@@ -16,7 +16,6 @@ let weekBefore = new Date().setDate(new Date().getDate() - 8);
 weekBefore = new Date(weekBefore);
 weekBefore = weekBefore.toISOString().split('T')[0];
 nasaApiKey="GWKXvKnHm9amnqFebTSXIVhaCzdyVygea1YxEmlM";
-
 const apiCallCount = 25;
 const dayPhoto2 = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&start_date=${weekBefore}&end_date=${today}`;
 const dayPhoto = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&count=${apiCallCount}`;
