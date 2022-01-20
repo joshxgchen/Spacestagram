@@ -12,10 +12,10 @@ import "./index.js"
 let nasaApiKey = process.env.REACT_APP_NASA_API_KEY;
 let today = new Date();
 today = today.toISOString().split('T')[0];
-let weekBefore = new Date().setDate(new Date().getDate() - 8)
-weekBefore = new Date(weekBefore)
+let weekBefore = new Date().setDate(new Date().getDate() - 8);
+weekBefore = new Date(weekBefore);
 weekBefore = weekBefore.toISOString().split('T')[0];
-nasaApiKey="GWKXvKnHm9amnqFebTSXIVhaCzdyVygea1YxEmlM"
+nasaApiKey="GWKXvKnHm9amnqFebTSXIVhaCzdyVygea1YxEmlM";
 
 const apiCallCount = 25;
 const dayPhoto2 = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&start_date=${weekBefore}&end_date=${today}`;
