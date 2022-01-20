@@ -17,6 +17,7 @@ git clone https://github.com/joshxgchen/Spacestagram
 ## Install necessary packages via:
 
 npm i @shopify/polaris
+
 npm i react-router-dom 5.20
 
 
