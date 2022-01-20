@@ -4,7 +4,7 @@ My challenge project for the Shopify Remote Front End Developer Position (2022).
 
 Beautiful images from NASA infinitely scrolled. Sometimes the NASA APOD API is slow, so please give it a minute.
 
-Live Demo at https://joshspagestagram.netlify.app/#/
+Live demo at https://joshspagestagram.netlify.app/#/ 
 
 ## Getting Started Locally
 
@@ -14,7 +14,7 @@ First clone the repo:
 git clone https://github.com/joshxgchen/Spacestagram
 
 
-## Install necessary packages via:
+## Install Necessary Packages Via:
 
 npm i @shopify/polaris
 
