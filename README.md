@@ -29,6 +29,7 @@ REACT_APP_NASA_API_KEY = your api_key_value (as a string)
 ## Start up the React app locally:
 
 npm start
+
 Open http://localhost:3000 with your browser to see the result.
 
 ## To-do:
