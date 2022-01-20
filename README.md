@@ -30,3 +30,14 @@ REACT_APP_API_KEY= your api_key_value (as a string)
 
 npm start
 Open http://localhost:3000 with your browser to see the result.
+
+## To-do:
+
+Loading Animation ✅
+Add Copy Text + Photo Text ✅
+Like Buttons ✅
+Shareable Links ✅
+Date-Picker 
+Random Photos ✅
+Most Recent Photos ✅
+
