@@ -4,8 +4,9 @@ My challenge project for the shopify remote front end developer position (2022).
 
 Beautiful images from NASA infinitely scrolled. Sometimes the NASA APOD API is slow, so please give it a minute.
 
-Live Demo at https://shopify-2022-challenge.joshc18.repl.co/
-Getting Started Locally
+Live Demo at https://joshspagestagram.netlify.app/#/
+
+### Getting Started Locally
 
 
 First clone the repo:
