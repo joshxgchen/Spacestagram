@@ -6,17 +6,19 @@ import Cards from "./routes/Cards";
 import Weekly from "./routes/Weekly";
 import Loader from "./routes/Loader";
 import "./App.css"
-//import InfiniteScroll from 'react-infinite-scroll-component';
+import "./index.js"
 
+
+let nasaApiKey = process.env.REACT_APP_NASA_API_KEY;
 let today = new Date();
 today = today.toISOString().split('T')[0];
-let monthBefore = new Date().setDate(new Date().getDate() - 7)
-monthBefore = new Date(monthBefore)
-monthBefore = monthBefore.toISOString().split('T')[0];
+let weekBefore = new Date().setDate(new Date().getDate() - 8)
+weekBefore = new Date(weekBefore)
+weekBefore = weekBefore.toISOString().split('T')[0];
+nasaApiKey="GWKXvKnHm9amnqFebTSXIVhaCzdyVygea1YxEmlM"
 
-const nasaApiKey = "GWKXvKnHm9amnqFebTSXIVhaCzdyVygea1YxEmlM";
-const apiCallCount = 30;
-const dayPhoto2 = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&start_date=${monthBefore}&end_date=${today}`;
+const apiCallCount = 25;
+const dayPhoto2 = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&start_date=${weekBefore}&end_date=${today}`;
 const dayPhoto = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}&count=${apiCallCount}`;
 
 
@@ -81,7 +83,7 @@ export default function Photo() {
 				alt='NASA footage of the day'
 			/>
 			<h2 className='imageTitle'>{imageTitle }</h2>
-            <h3 className = 'imageTitle2'>`Created by: ${authorCredit} | ${date} | Photo of The Day`</h3>
+            <h3 className = 'imageTitle2'>Created by: {authorCredit} | {date} | Photo of The Day</h3>
 			<div className='featuredImage'>
 				<h6 className='imageInfo'>{imageInfo}</h6>
 			</div>
@@ -99,8 +101,7 @@ export default function Photo() {
       <TextContainer>
     <Heading>Created by Josh Chen</Heading>
       <h4 >
-      Shopify is the easiest way to sell your products in person. Available
-      for iPad, iPhone, and Android.
+      github.com/joshxgchen/Spacestagram
       </h4 >
     </TextContainer>
 
