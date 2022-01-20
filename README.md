@@ -24,7 +24,7 @@ npm i react-router-dom 5.20
 This module runs on React v16. 
 Set up a .env file in the root folder and add a NASA API Key:
 
-REACT_APP_API_KEY= your api_key_value (as a string)
+REACT_APP_NASA_API_KEY = your api_key_value (as a string)
 
 ## Start up the React app locally:
 
