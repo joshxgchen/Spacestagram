@@ -1,6 +1,4 @@
-# Shopify Nasa Spacestagram Challenge
-
-My challenge project for the Shopify Remote Front End Developer Position (2022).
+# NASA API React App
 
 Beautiful images from NASA infinitely scrolled. Sometimes the NASA APOD API is slow, so please give it a minute.
 
@@ -43,6 +41,8 @@ Like Buttons ✅
 Shareable Links ✅
 
 Date-Picker 📝(In Progress)
+
+Processing Videos 📝(In Progress)
 
 Random Photos ✅
 
