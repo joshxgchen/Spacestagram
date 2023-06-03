@@ -1,6 +1,6 @@
 # NASA API React App
 
-Beautiful images from NASA infinitely scrolled. Sometimes the NASA APOD API is slow, so please give it a minute. Initially created in first year.
+Beautiful images from NASA infinitely scrolled. Sometimes the NASA APOD API is slow, so please give it a minute. First year project.
 
 Live demo at https://joshspagestagram.netlify.app/#/ 
 
